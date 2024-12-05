@@ -20,8 +20,8 @@ int main() {
 
 template <typename floatType>
 floatType half(floatType templateNum) {
-	
+	return round(templateNum / 2);
 }
 int half(int halfNum) {
-
+	return round(static_cast<float>(halfNum) / 2);
 }
